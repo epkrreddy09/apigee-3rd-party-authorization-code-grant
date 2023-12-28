@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="AM-oauth_external_authorization_status" version="SHA-512:38cb7c04866030609d672cc28ff9bb5ced7c360f24500c43208021c8729cd95beab25909c1294af35b90ba6d32a8d52cdad19e7b980b5e03b83988ebd01d72ff"/>
+        <VersionInfo resourceName="Assign-Message-1" version="SHA-512:2ffd2294da5a1edb51246d69b7ff7c190c12c902fc176c13133f33d0a5083e1914613500b5456efef90974e5866ed4505f3488df46d174860054af1bc6860def"/>
+        <VersionInfo resourceName="EV-Code" version="SHA-512:7fef3187742b653241bf80ec9d9cbcd3f9d77b2dfbcd7eff86fac6f0b7496f812147c938c13de8216d5cf7025a68c777c95c716039e72e5f73a03e11c69e4b41"/>
+        <VersionInfo resourceName="EV-Parse-Cognito-response" version="SHA-512:b79ccff5ca1f388d51cc05faf6c92fb79de431db3180802b59605380cf53dc4d28890acb1bef14012c0bfe8b357c77760950ef9a97189b5bb764525a87e7e975"/>
+        <VersionInfo resourceName="InvalidateToken" version="SHA-512:6bccc540ee3c837edb0eeab35b3336ab9b3624a0a0fc7769244d6a4c30cfceb73502c6fb050c58c3994f3499e83a4906d545a7da08691ad9772d0f84f47efc89"/>
+        <VersionInfo resourceName="OAuth-Code" version="SHA-512:08cec91f06dccff7736f2201cbd66fdd6ae0b1a66cfd44a7868e386526a02ffd4e25196a6b68bf5cc7bc4b4c88cc442fa00356a360f31f2badc980b8c6088072"/>
+        <VersionInfo resourceName="OAuth-v20-ApigeeTokenStore" version="SHA-512:fdec1038135308749628db428c7feaa86f1a0c932051e0606f339eeb17052e0fff6383478b8f4a3c26fc5c1543818fc9cb53b93c2e6457c8b8eb5cc880e8545f"/>
+        <VersionInfo resourceName="OAuth-v20-Token-Validation" version="SHA-512:b082e693d4de1b38138aea7ba87420c21c86da76e2bd383e40a04189beebd724a896e70ed583ba0cd4c227e347862d1fb95dd5a1891d53e04349c0ba0641b5ab"/>
+        <VersionInfo resourceName="SC-get-cognito-token" version="SHA-512:b1d23f9536909a7558c54546511258b114d69e0b148cafd142d4c0c4c92a116292dabd87dc8e261731b5e4f267f1522289023f0f324d35be280fbdd47c5d17cb"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="ProxyEndpoint-1" version="SHA-512:64e3589686b7a6096e94dc126d23d2658270554eb07f5f912409a8000a2544e3f4ac74dff3e72fc802b989db2a9583c13e50ecef4f3e8bcd94c09cd7a06a2708"/>
+        <VersionInfo resourceName="ResourceTest" version="SHA-512:76d14d2cbbf1166a452d38386125405e484d4ea38bc24aa24cbfeb30986417a7aa46d27374a5cc45b99346ef7b4c154cd63ac2d446ea12fbe112cc253cff3276"/>
+        <VersionInfo resourceName="Token-Generation" version="SHA-512:91ff3858d1c82bfb68bd87ad48ced658c078eb0ac440c6e7aca0f592115df13b41e431a38a1db409206adaf0991532804780dd643dd278ced26891269f10f9f6"/>
+        <VersionInfo resourceName="Token-invalidate" version="SHA-512:bf237512258d8bd75f2c937e9b39c71e4e811a5381e9ae1481f08a47afd5eba8ba4765cdd8d62f09ae75bd197068c7ad0bfa0c4d5305fe446f3e9ae24f94228b"/>
+        <VersionInfo resourceName="apigee-authcode" version="SHA-512:84a23bce47f838c8ee10f7545be6a8f2fab186ef371ff5e1b68f54fc29f8b774a67f5a0fa407fdff7190b654087d172430f1d58340d7097cb202bc40ad975f77"/>
+        <VersionInfo resourceName="default" version="SHA-512:1c8fa0c7ab11b3f8ef9911fcbcd1b3ee66046c19a650640bd7efd6560fc19f9949b703f30f941f946aa3e84dfa00fe4d1580bebc655e64640bb755b12a649eab"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="jsc://JavaScript-1.js" version="SHA-512:1a0a64a81a3effb4adfe124d42afe01b4a234775e8969ffe9c65e2ed721bf24a061049442e5e847c1e3d5bfca9e7d69a9057e43483b9866b36eb58f03e84573e"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="ResourceTest" version="SHA-512:a4f3d064e1092233df4bf7034e036a37f53bc0322adaf751c1febd8e128cc5d1f4260b10725e9a4cf368f618155de3daeabbc4a11cb0fab49561855affa12c36"/>
+        <VersionInfo resourceName="default" version="SHA-512:00fc0b1f3bd2a5ffe2a4392ffc55076a29dadd809bec9a8f5f56b9fe4b820661d4a8018cffef167c213e75cd54654c2432eee09863f4f3fff1fd5f8f1b918c88"/>
+    </TargetEndpoints>
+</Manifest>

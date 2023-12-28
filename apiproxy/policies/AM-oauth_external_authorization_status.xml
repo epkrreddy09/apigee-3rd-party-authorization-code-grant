@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="AM-oauth_external_authorization_status">
+    <DisplayName>AM-oauth_external_authorization_status</DisplayName>
+    <Properties/>
+    <AssignVariable>
+        <Name>oauth_external_authorization_status</Name>
+        <Value>true</Value>
+    </AssignVariable>
+    <!--<Remove>
+        <FormParams>
+            <FormParam name="client_id"/>
+            <FormParam name="code"/>
+            <FormParam name="redirect_uri"/>
+            <FormParam name="scope"/>
+            <FormParam name="grant_type"/>
+        </FormParams>
+    </Remove>-->
+    <Set>
+        <FormParams>
+            <FormParam name="client_id">{request.header.client_id}</FormParam>
+            <FormParam name="grant_type">authorization_code</FormParam>
+        </FormParams>
+    </Set>
+    <AssignTo createNew="false" transport="http" type="request"/>
+</AssignMessage>

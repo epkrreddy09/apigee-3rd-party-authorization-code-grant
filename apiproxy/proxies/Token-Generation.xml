@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ProxyEndpoint name="Token-Generation">
+    <Description/>
+    <FaultRules/>
+    <PreFlow name="PreFlow">
+        <Request>
+            <Step>
+                <Name>SC-get-cognito-token</Name>
+            </Step>
+            <Step>
+                <Name>EV-Parse-Cognito-response</Name>
+            </Step>
+            <Step>
+                <Name>AM-oauth_external_authorization_status</Name>
+            </Step>
+            <Step>
+                <Name>OAuth-v20-ApigeeTokenStore</Name>
+            </Step>
+        </Request>
+        <Response/>
+    </PreFlow>
+    <PostFlow name="PostFlow">
+        <Request/>
+        <Response/>
+    </PostFlow>
+    <Flows/>
+    <HTTPProxyConnection>
+        <BasePath>/v1/token</BasePath>
+        <Properties/>
+        <VirtualHost>secure</VirtualHost>
+    </HTTPProxyConnection>
+    <RouteRule name="noTarget">
+        <!--<TargetEndpoint>default</TargetEndpoint>-->
+    </RouteRule>
+</ProxyEndpoint>

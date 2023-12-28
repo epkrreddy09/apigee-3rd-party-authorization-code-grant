@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables async="false" continueOnError="false" enabled="true" name="EV-Parse-Cognito-response">
+    <DisplayName>EV-Parse-Cognito-response</DisplayName>
+    <Properties/>
+    <JSONPayload>
+        <Variable name="external_access_token">
+            <JSONPath>$.access_token</JSONPath>
+        </Variable>
+        <Variable name="refresh_token">
+            <JSONPath>$.refresh_token</JSONPath>
+        </Variable>
+        <Variable name="id_token">
+            <JSONPath>$.id_token</JSONPath>
+        </Variable>
+    </JSONPayload>
+    <Source clearPayload="false">cognitoResponse</Source>
+</ExtractVariables>

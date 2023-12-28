@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<OAuthV2 name="InvalidateToken">
+    <Operation>InvalidateToken</Operation>
+    <Tokens>
+        <Token type="accesstoken" cascade="true">request.header.token</Token>
+    </Tokens>
+</OAuthV2>

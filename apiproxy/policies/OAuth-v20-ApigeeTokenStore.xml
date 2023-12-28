@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<OAuthV2 async="false" continueOnError="false" enabled="true" name="OAuth-v20-ApigeeTokenStore">
+    <DisplayName>OAuth v2.0-ApigeeTokenStore</DisplayName>
+    <Attributes/>
+    <ExternalAuthorization>true</ExternalAuthorization>
+    <ExternalAccessToken>external_access_token</ExternalAccessToken>
+    <ExternalAuthorizationCode>request.formparam.code</ExternalAuthorizationCode>
+    <Operation>GenerateAccessToken</Operation>
+    <GenerateResponse enabled="true">
+        <Format>FORM_PARAM</Format>
+    </GenerateResponse>
+    <ReuseRefreshToken>false</ReuseRefreshToken>
+    <!--<ClientId>request.header.ClientId</ClientId>-->
+    <!--<GenerateResponse>true</GenerateResponse>-->
+    <StoreToken>true</StoreToken>
+    <SupportedGrantTypes>
+        <GrantType>authorization_code</GrantType>
+    </SupportedGrantTypes>
+    <Tokens/>
+</OAuthV2>

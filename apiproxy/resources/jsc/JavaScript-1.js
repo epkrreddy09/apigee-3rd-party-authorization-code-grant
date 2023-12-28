@@ -1,0 +1,1 @@
+ context.setVariable("oauth_external_authorization_status",true);

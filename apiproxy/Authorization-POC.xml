@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="8" name="Authorization-POC">
+    <Basepaths>/authorize</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1627306004841</CreatedAt>
+    <CreatedBy>defaultUser</CreatedBy>
+    <Description></Description>
+    <DisplayName>Authorization-POC</DisplayName>
+    <LastModifiedAt>1628235294291</LastModifiedAt>
+    <LastModifiedBy>defaultUser</LastModifiedBy>
+    <ManifestVersion>SHA-512:00262f8cc23aabf0ab8fb51c3bea03ac4c160609a798fa8bfba17dd63f96f2eb26a7697b68670205bc7ec194b0ac952faaebcc92bd8d6611083fe7a9e62b6117:ap-northeast-1</ManifestVersion>
+    <Policies>
+        <Policy>AM-oauth_external_authorization_status</Policy>
+        <Policy>Assign-Message-1</Policy>
+        <Policy>EV-Code</Policy>
+        <Policy>EV-Parse-Cognito-response</Policy>
+        <Policy>InvalidateToken</Policy>
+        <Policy>OAuth-Code</Policy>
+        <Policy>OAuth-v20-ApigeeTokenStore</Policy>
+        <Policy>OAuth-v20-Token-Validation</Policy>
+        <Policy>SC-get-cognito-token</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>ProxyEndpoint-1</ProxyEndpoint>
+        <ProxyEndpoint>ResourceTest</ProxyEndpoint>
+        <ProxyEndpoint>Token-Generation</ProxyEndpoint>
+        <ProxyEndpoint>Token-invalidate</ProxyEndpoint>
+        <ProxyEndpoint>apigee-authcode</ProxyEndpoint>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://JavaScript-1.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>ResourceTest</TargetEndpoint>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
